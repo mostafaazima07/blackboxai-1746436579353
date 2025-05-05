@@ -1,0 +1,174 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "actions": "Actions"
+  },
+
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "loginButton": "Sign In",
+    "rememberMe": "Remember Me",
+    "errors": {
+      "invalidEmail": "Please enter a valid @thewebvalue.com email",
+      "requiredEmail": "Email is required",
+      "requiredPassword": "Password is required",
+      "passwordMismatch": "Passwords do not match",
+      "invalidCredentials": "Invalid email or password"
+    }
+  },
+
+  "navigation": {
+    "dashboard": "Dashboard",
+    "tasks": "Tasks",
+    "users": "Users",
+    "profile": "Profile",
+    "settings": "Settings",
+    "analytics": "Analytics"
+  },
+
+  "dashboard": {
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "statistics": "Statistics",
+    "recentTasks": "Recent Tasks",
+    "taskStatus": {
+      "title": "Task Status",
+      "notStarted": "Not Started",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "needsFeedback": "Needs Feedback"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "createTask": "Create Task",
+      "addUser": "Add User",
+      "viewAnalytics": "View Analytics"
+    }
+  },
+
+  "tasks": {
+    "title": "Tasks",
+    "createTask": "Create Task",
+    "editTask": "Edit Task",
+    "taskDetails": "Task Details",
+    "assignTo": "Assign To",
+    "dueDate": "Due Date",
+    "priority": {
+      "title": "Priority",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "status": {
+      "title": "Status",
+      "notStarted": "Not Started",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "needsFeedback": "Needs Feedback"
+    },
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "assignee": "Assignee",
+      "creator": "Creator",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "completedAt": "Completed At",
+      "note": "Note"
+    },
+    "filters": {
+      "all": "All Tasks",
+      "assigned": "Assigned to Me",
+      "created": "Created by Me",
+      "overdue": "Overdue"
+    }
+  },
+
+  "users": {
+    "title": "Users",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "userDetails": "User Details",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "lastLogin": "Last Login"
+    },
+    "roles": {
+      "admin": "Admin",
+      "employee": "Employee"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "accountSettings": "Account Settings",
+    "changePassword": "Change Password",
+    "language": "Language",
+    "theme": "Theme"
+  },
+
+  "analytics": {
+    "title": "Analytics",
+    "taskMetrics": "Task Metrics",
+    "userMetrics": "User Metrics",
+    "timeframe": {
+      "today": "Today",
+      "week": "This Week",
+      "month": "This Month",
+      "year": "This Year"
+    }
+  },
+
+  "notifications": {
+    "taskAssigned": "New task assigned",
+    "taskUpdated": "Task updated",
+    "taskCompleted": "Task completed",
+    "passwordChanged": "Password changed successfully",
+    "profileUpdated": "Profile updated successfully"
+  },
+
+  "errors": {
+    "generic": "An error occurred",
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "sessionExpired": "Session expired",
+    "networkError": "Network error",
+    "validationError": "Please check your input"
+  }
+}
