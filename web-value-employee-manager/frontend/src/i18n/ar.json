@@ -1,0 +1,174 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "all": "الكل",
+    "none": "لا شيء",
+    "yes": "نعم",
+    "no": "لا",
+    "confirm": "تأكيد",
+    "actions": "إجراءات"
+  },
+
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "changePassword": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "loginButton": "دخول",
+    "rememberMe": "تذكرني",
+    "errors": {
+      "invalidEmail": "يرجى إدخال بريد إلكتروني صالح @thewebvalue.com",
+      "requiredEmail": "البريد الإلكتروني مطلوب",
+      "requiredPassword": "كلمة المرور مطلوبة",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة"
+    }
+  },
+
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "tasks": "المهام",
+    "users": "المستخدمون",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "analytics": "التحليلات"
+  },
+
+  "dashboard": {
+    "welcome": "مرحباً",
+    "overview": "نظرة عامة",
+    "statistics": "الإحصائيات",
+    "recentTasks": "المهام الأخيرة",
+    "taskStatus": {
+      "title": "حالة المهمة",
+      "notStarted": "لم تبدأ",
+      "inProgress": "قيد التنفيذ",
+      "completed": "مكتملة",
+      "needsFeedback": "تحتاج إلى مراجعة"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "createTask": "إنشاء مهمة",
+      "addUser": "إضافة مستخدم",
+      "viewAnalytics": "عرض التحليلات"
+    }
+  },
+
+  "tasks": {
+    "title": "المهام",
+    "createTask": "إنشاء مهمة",
+    "editTask": "تعديل المهمة",
+    "taskDetails": "تفاصيل المهمة",
+    "assignTo": "تعيين إلى",
+    "dueDate": "تاريخ الاستحقاق",
+    "priority": {
+      "title": "الأولوية",
+      "low": "منخفضة",
+      "medium": "متوسطة",
+      "high": "عالية"
+    },
+    "status": {
+      "title": "الحالة",
+      "notStarted": "لم تبدأ",
+      "inProgress": "قيد التنفيذ",
+      "completed": "مكتملة",
+      "needsFeedback": "تحتاج إلى مراجعة"
+    },
+    "fields": {
+      "title": "العنوان",
+      "description": "الوصف",
+      "assignee": "المكلف",
+      "creator": "المنشئ",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "completedAt": "تاريخ الإكمال",
+      "note": "ملاحظة"
+    },
+    "filters": {
+      "all": "جميع المهام",
+      "assigned": "المهام المسندة إلي",
+      "created": "المهام التي أنشأتها",
+      "overdue": "المهام المتأخرة"
+    }
+  },
+
+  "users": {
+    "title": "المستخدمون",
+    "addUser": "إضافة مستخدم",
+    "editUser": "تعديل المستخدم",
+    "userDetails": "تفاصيل المستخدم",
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "status": "الحالة",
+      "lastLogin": "آخر تسجيل دخول"
+    },
+    "roles": {
+      "admin": "مدير",
+      "employee": "موظف"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    }
+  },
+
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": "المعلومات الشخصية",
+    "accountSettings": "إعدادات الحساب",
+    "changePassword": "تغيير كلمة المرور",
+    "language": "اللغة",
+    "theme": "المظهر"
+  },
+
+  "analytics": {
+    "title": "التحليلات",
+    "taskMetrics": "مقاييس المهام",
+    "userMetrics": "مقاييس المستخدمين",
+    "timeframe": {
+      "today": "اليوم",
+      "week": "هذا الأسبوع",
+      "month": "هذا الشهر",
+      "year": "هذا العام"
+    }
+  },
+
+  "notifications": {
+    "taskAssigned": "تم تعيين مهمة جديدة",
+    "taskUpdated": "تم تحديث المهمة",
+    "taskCompleted": "تم إكمال المهمة",
+    "passwordChanged": "تم تغيير كلمة المرور بنجاح",
+    "profileUpdated": "تم تحديث الملف الشخصي بنجاح"
+  },
+
+  "errors": {
+    "generic": "حدث خطأ",
+    "notFound": "الصفحة غير موجودة",
+    "unauthorized": "غير مصرح بالوصول",
+    "sessionExpired": "انتهت صلاحية الجلسة",
+    "networkError": "خطأ في الشبكة",
+    "validationError": "يرجى التحقق من المدخلات"
+  }
+}
