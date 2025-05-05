@@ -1,0 +1,57 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Disallow crawling of authentication and sensitive routes
+Disallow: /login
+Disallow: /admin/*
+Disallow: /profile
+Disallow: /tasks/create
+Disallow: /tasks/*/edit
+
+# Sitemap location
+Sitemap: https://thewebvalue.com/app/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Additional rules for specific bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 5
+
+# Block specific paths from being indexed
+Disallow: /api/
+Disallow: /assets/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow specific file types
+Allow: /*.html$
+Allow: /*.htm$
+Allow: /*.xml$
+Allow: /*.txt$
+
+# Block specific query parameters
+Disallow: /*?*token=
+Disallow: /*?*password=
+Disallow: /*?*key=
+
+# Rate limiting instructions
+# Maximum page requests per second
+Request-rate: 1/10
+# Maximum concurrent connections
+Visit-time: 0600-2200
+
+# Cache instructions
+Cache-Control: max-age=3600
