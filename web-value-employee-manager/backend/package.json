@@ -1,0 +1,30 @@
+{
+  "name": "web-value-employee-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend for Web Value Employee Manager",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.2",
+    "sequelize": "^6.32.1",
+    "@sendgrid/mail": "^7.7.0",
+    "googleapis": "^123.0.0",
+    "@microsoft/microsoft-graph-client": "^3.0.5"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
